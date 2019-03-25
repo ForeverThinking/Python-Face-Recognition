@@ -2,6 +2,7 @@ import cv2, time
 
 video = cv2.VideoCapture(0)
 
+# begin video capture
 while True:
     check, frame = video.read()
 
